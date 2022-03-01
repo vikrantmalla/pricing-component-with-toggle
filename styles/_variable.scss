@@ -1,0 +1,23 @@
+/*Color */
+
+
+/*Primary Color */
+
+$colorLinearGradient1: hsl(236, 72%, 79%);
+$colorLinearGradient2: hsl(237, 63%, 64%);
+
+/*Neutral Color */
+
+$colorVeryLightGrayishBlue: hsl(240, 78%, 98%);
+$colorLightGrayishBlue: hsl(234, 14%, 74%);
+$colorGrayishBlue: hsl(233, 13%, 49%);
+$colorDarkGrayishBlue: hsl(232, 13%, 33%);
+
+/*mixin */
+
+@mixin flex($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: center;
+}
