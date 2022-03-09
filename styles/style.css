@@ -18,12 +18,12 @@
       -ms-flex-align: center;
           align-items: center;
   align-items: center;
-  gap: 2.5rem;
+  gap: 2.2rem;
 }
 
 .container h1 {
   color: #6d708d;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .container .toggle-container {
@@ -74,13 +74,13 @@
   gap: 1rem;
   background-color: #fff;
   border-radius: 0.5rem;
-  padding: 1.8rem;
+  padding: 2rem;
   margin: 0.6rem;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.container .price-container .price-box h4 {
+.container .price-container .price-box h2 {
   text-align: center;
   color: #494c5f;
 }
@@ -139,7 +139,7 @@
   z-index: 1;
 }
 
-.container .price-container .premium h4 {
+.container .price-container .premium h2 {
   color: #fff;
 }
 
@@ -168,14 +168,6 @@
   background-image: linear-gradient(to right, #a3a8f0, #696fdd);
   border: 0.1rem solid #fff;
   color: #fff;
-}
-
-.container .show-monthly .price-box p .monthly {
-  display: block;
-}
-
-.container .show-monthly .price-box p .annually {
-  display: none;
 }
 
 @media (min-width: 62em) {

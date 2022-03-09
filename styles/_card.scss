@@ -1,10 +1,10 @@
 .container {
     @include flex(column, center);
     align-items: center;
-    gap: 2.5rem;
+    gap: 2.2rem;
     h1 {
         color: $colorGrayishBlue;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .toggle-container {
         @include flex(row, center);
@@ -22,10 +22,10 @@
             gap: 1rem;
             background-color: #fff;
             border-radius: 0.5rem;
-            padding: 1.8rem;
+            padding: 2rem;
             margin: 0.6rem;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-            h4 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            h2 {
                 text-align: center;
                 color: $colorDarkGrayishBlue;
             }
@@ -74,7 +74,7 @@
         .premium {
             background-image: linear-gradient( to right, $colorLinearGradient1, $colorLinearGradient2);
             z-index: 1;
-            h4 {
+            h2 {
                 // color: $colorVeryLightGrayishBlue;
                 color: #fff;
             }
@@ -98,18 +98,6 @@
                     background-image: linear-gradient( to right, $colorLinearGradient1, $colorLinearGradient2);
                     border: 0.1rem solid #fff;
                     color: #fff;
-                }
-            }
-        }
-    }
-    .show-monthly {
-        .price-box {
-            p {
-                .monthly {
-                    display: block;
-                }
-                .annually {
-                    display: none;
                 }
             }
         }
